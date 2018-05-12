@@ -41,3 +41,23 @@ variable {
     options: "medium"
     options: "high"
 }
+
+variable {
+    name: "io_wait"
+    type: ENUM
+    size: 1
+    options: "low"
+    options: "medium"
+    options: "high"
+}
+
+variable {
+    name: "mem_use"
+    type: ENUM
+    size: 1
+    options: "low"
+    options: "medium"
+    options: "high"
+}
+
+
